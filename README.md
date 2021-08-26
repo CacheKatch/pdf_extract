@@ -6,6 +6,12 @@ To install camelot:
 1) Install Ghostscript. Link: 
 https://www.ghostscript.com/download/gsdnld.html
 
+```
+pip install ghostscript
+```
+Make sure that the Ghostscript bin and lib Paths are added to windows user variables
+![Path Installed](Images/path_image2.png)
+
 2) pip install camelot
 ```
 pip install camelot-py[cv]
